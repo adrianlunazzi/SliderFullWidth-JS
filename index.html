@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Slider Full Width - Javascript</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Products</a>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Store</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </header>
+    <section class="banner">
+      <div class="imgBx">
+        <img src="./assets/images/img1.jpg" class="active" alt="" />
+        <img src="./assets/images/img2.jpg" alt="" />
+        <img src="./assets/images/img3.jpg" alt="" />
+        <img src="./assets/images/img4.jpg" alt="" />
+      </div>
+      <div class="contextBx">
+        <div class="active">
+          <h2>Slide Text One</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            quas dolor minima error! Tenetur dolore veniam placeat!
+          </p>
+          <a href="#">Details</a>
+        </div>
+        <div>
+          <h2>Slide Text Two</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            tempora expedita, eveniet quod provident debitis possimus laboriosam
+            dolore dolorem nihil a maiores perferendis.
+          </p>
+          <a href="#">Details</a>
+        </div>
+        <div>
+          <h2>Slide Text Three</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            neque enim voluptatem rerum. Officiis molestias.
+          </p>
+          <a href="#">Details</a>
+        </div>
+        <div>
+          <h2>Slide Text Four</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            quas dolor minima error! Tenetur dolore veniam placeat!
+          </p>
+          <a href="#">Details</a>
+        </div>
+      </div>
+      <ul class="controls">
+        <li onclick="prevSlide();prevSlideText()"></li>
+        <li onclick="nextSlide();nextSlideText()"></li>
+      </ul>
+    </section>
+  </body>
+  <script src="./javascript/slider.js"></script>
+</html>
